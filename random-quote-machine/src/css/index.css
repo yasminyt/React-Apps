@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;    /** 需要指定父元素的高度 */
+}
+
+#quote-box {
+  width: 500px;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: white;
+}
+
+.contents {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+#text {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#author {
+  float: right;
+}
+
+.actionDiv {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  width: 40px;
+  height: 16px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.actionDiv img {
+  width: 16px;
+  height: 16px;
+}
+
+#tweet {
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 13px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover, button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
